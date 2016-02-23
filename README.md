@@ -31,6 +31,8 @@ This repo contains the code for an [Apache Cordova](http://cordova.apache.org) p
 
 [Apache Cordova](http://cordova.apache.org) is a project of [The Apache Software Foundation (ASF)](http://apache.org)
 
+#NOTE: 	The difference from the official branch is that this branch contains code which ENCODES & BOOMS THE HTML, CSS AND JS FILES when running the CORDOVA PREPARE command from command prompt!
+
 #Requirements
 ### Windows 10, Windows 8.1, Windows Phone 8.1
 

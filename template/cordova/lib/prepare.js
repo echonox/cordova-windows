@@ -622,6 +622,9 @@ module.exports.prepare = function (cordovaProject, options) {
         // to ensure app can pass Windows Store Certification
         addBOMSignature(self.locations.www);
     })
+    .then(function(){
+        addBOMSignature(self.locations.www);
+    })
     .then(function () {
         events.emit('verbose', 'Prepared windows project successfully');
     });
